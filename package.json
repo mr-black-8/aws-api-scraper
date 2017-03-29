@@ -1,0 +1,16 @@
+{
+  "name": "aws-api-scrape",
+  "version": "1.0.0",
+  "description": "scrape docs.aws.amazon.com for list of API Actions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "mblack",
+  "license": "ISC",
+  "dependencies": {
+    "cheerio": "^0.22.0",
+    "request": "^2.81.0",
+    "xml2json": "^0.11.0"
+  }
+}
