@@ -44,7 +44,7 @@ const getActionsFromPage = (url) =>
     });
   });
 
-// const url = 'http://docs.aws.amazon.com/IAM/latest/APIReference/API_Operations.html'
+fs.writeFile('output.json', '');
 
 getActionPageURLs().then(result => {
 
